@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+  top: 0;
+background-color: rgb(10, 7, 16);
+display: flex;
+justify-content: space-around;
+padding: 15px;
+align-items: center;
+z-index: 1;
+}
+
+.left h4, .left p{
+    color: white;
+}
+.left{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.left p{
+    background-color: rgb(10, 6, 240);
+    padding: 7px;
+   border-radius: 50%;
+}
+   .right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   }
+   .right a{
+    color: rgb(250, 246, 246);
+    text-decoration: none;
+   }
+   .button{
+    background-color: rgb(29, 4, 254);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(250, 249, 249, 0.91);
+    text-decoration: none;
+   }
+   .item1{
+    gap: 50px;
+    display: flex;
+    margin:0 200px;
+    background-color: white;
+    padding: 50px;
+   }
+    /*--------NAVBAR END--------*/
+.section1{
+    background-color: beige;
+    padding: 100px 50px;
+}
+   .item1 img{
+    width: 400px;
+    border-radius: 20px;
+   }
+   .lower{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   
+   }
+   .left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   }
+   .lower div{
+    background-color: gray;
+    padding: 10px;
+   }
+
+    /*--------item1 end--------*/
+    .item2{
+        position: relative;
+        top:200px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 400px;
+        gap: 20px;
+        padding: 50px;
+        background-color: white ;
+    }
+.item2 img{
+    width: 400px;
+    border-radius: 15px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+   
+.section2{
+    background-color: rgb(198, 196, 196);
+    padding: 150px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 15px;
+        gap: 20px;
+        border-radius: 7px;
+        padding: 10px;
+        background-color: wheat;
+        
+}
+
+.icons i{
+    color: blueviolet;
+    font-size: large;
+}
+
+/*-------ICON END-----*/
+
+.item3{
+
+  display: flex;
+  align-items: center;
+    top: 50px;
+    color: #0c0e0e;
+    gap: 40px;
+   
+}
+
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icons{
+    color: rgb(86, 20, 253);
+    font-size: small;
+    
+}
+.desc{
+    width: 30%;
+    margin-left: 50px;
+    
+}
+.grids{
+    display: grid;
+    grid-template-columns: 300px 350px;
+    gap: 20px;
+}
+
+.grid{
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background-color:white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.grids .left-grid{
+position: relative;
+top: 30px;
+}
+.grid i{
+    background-color: rgb(218, 184, 249);
+    padding: 10px;
+    border-radius: 5px;
+}
+.section3 .all{
+    gap: 20px;
+    display:  grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 400px;
+    margin-top: 50px;
+
+}
+.all img{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.all div{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.section3 p, .section3  h1{
+    text-align: center;
+}
+
+/*-------Item END-----*/
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color:#0c0e0e;
+    margin-top: 50px;
+    color: white;
+    margin-left: 10rem;
+   padding: 2rem;
+}
+.section4 button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+.section4 button:hover{
+    background-color: #5d0367;
+}
+.section4 p{
+    color: #cfd6d6;
+}
+
+/*-------SECTION4 END-----*/
+
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.blog{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #cfd6d6;
+}
+.blog img{
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blog .details{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.blogs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.section6{
+    margin-left: 6rem;
+    background-color: #cfd6d6;
+    display: flex;
+    padding: 10rem;
+    gap: 5rem;
+    align-items: center;
+}
+.section6 .left6{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 45%;
+    align-items: start;
+}
+.section6 button{
+    border:  none;
+    padding: 9px 15px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+.section6 button:hover{
+    background-color: #5d0367;
+    cursor: pointer;
+}
+.section6 .right6{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.section6  .right6 div{
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section6 .right6 .first{
+    border-left:blueviolet solid 5px;
+}
+.section7{
+    padding: 50px;
+    text-align:  center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section7 .logos img{
+  width: 100px;
+}
+.section7 .logos{
+    display:  flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.section7 p{
+    color: #a8abab;
+}
+.contact{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 10rem;
+    border: 1px solid #a8abab   ;
+    position: relative;
+     top: 70px;
+     z-index: 1;
+     background-color: white;
+    
+}
+.contact .address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact .address div{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap: 5px;
+}
+.contact .address i, .contact .social-media i{
+    color: blueviolet;
+    font-size: 1rem;
+    background-color: rgb(207, 167, 245);
+    padding: 7px;
+}
+.contact .social-media{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+form{
+    display: flex;
+    flex-direction: column  ;
+    gap: 20px;
+    align-items: start;
+
+}
+form div {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+
+}
+form input{
+    border: none;
+    border-bottom: 1px solid rgb(197, 191, 202);
+    outline: none;
+    width: 100%;
+}
+form input:focus{
+    border-bottom: 1px solid blueviolet;
+    color: blueviolet;
+}
+form button{
+    border: none;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+}
+form button:hover{
+    background-color: rgb(115, 13, 209);
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    color: white;
+}
